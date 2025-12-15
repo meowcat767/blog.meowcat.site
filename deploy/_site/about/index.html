@@ -2,27 +2,42 @@
 <html lang="en">
   <head>
     
-    {# This is the base template for the site–other templates extend this one #}
+    
     
     <meta charset="utf-8" />
     <link rel="icon" href="https://glitch.com/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="{{ metadata.description }}" />
+    <meta name="description" content="techical stuff for techical people" />
     <link rel="stylesheet" type="text/css" href="/assets/style.css" />
   </head>
   <body>
     <header>
-      <a href="/" class="home-link">{{ metadata.title }}</a>
-      {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+      <a href="/" class="home-link">meowcat&#39;s blog</a>
       <nav>
       <a href="/about">About</a>
       </nav>
     </header>
     <main>
     
-    {# Page or post content will appear here #}
+    
   
-    {{ content | safe }}
+    
+
+
+<div class="wrapper">
+  <div class="content">
+    <h1>About this site</h1>
+<p>Here you can write some details about you and your new blog:</p>
+<ul>
+<li>🎉 I love blogging</li>
+<li>💥 I built this site using <a href="https://www.11ty.dev/">Eleventy</a></li>
+<li>🌈 Thanks for reading!</li>
+</ul>
+<p>You can also make your project available for other people to remix! 🎏✨</p>
+
+  </div>
+</div>
+
     
     </main>
     <footer class="footer">
