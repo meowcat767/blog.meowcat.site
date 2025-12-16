@@ -4,8 +4,8 @@ description: regex...
 date: 2025-12-16
 tags:
 - posts
-  layout: post.njk
-  ---
+layout: post.njk
+---
 
 I accidentally deleted the whole of my bin folder. If you don't know much about Linux, know lots of system files live here,
 including bash, DE's, X11 and Wayland, among other things. 
