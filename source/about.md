@@ -4,4 +4,4 @@ layout: page.njk
 
 # About this site
 
-i cannot the java
+I quite like working with computers.
